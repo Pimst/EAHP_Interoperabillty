@@ -1,0 +1,41 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "eahp-interoperability-ig",
+  "url": "https://afriscic.github.io/EAHP_Interoperabillty/",
+  "version": "0.0.1",
+  "name": "EAHPInteroperabilityIG",
+  "title": "EAHP Interoperability Implementation Guide",
+  "status": "draft",
+  "packageId": "org.eahp.interoperability",
+  "license": "CC0-1.0",
+  "urlType": "canonical",
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition-InventoryItem"
+        }
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition-InventoryIReport"
+        }
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition-Task"
+        }
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition-SupplyDelivery"
+        }
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition-SupplyRequest"
+        }
+      }
+    ]
+  }
+}
