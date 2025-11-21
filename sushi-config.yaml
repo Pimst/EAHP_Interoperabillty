@@ -6,5 +6,7 @@ id: eahp-interoperability-ig
 name: EAHPInteroperabilityIG
 status: draft
 version: "0.0.1"
-package-id: "org.eahp.interoperability"
+packageId: "org.eahp.interoperability"
+copyrightYear: 2025
+releaseLabel: "0.0.1"
 dependencies: {}
