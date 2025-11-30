@@ -47,8 +47,10 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
       
-      - name: Install Jekyll and dependencies
-        run: bundle install
+      - name: Add Jekyll to PATH
+        run: |
+          echo "$(bundle show jekyll | sed 's|/gems/.*||')/bin" >> $GITHUB_PATH
+          bundle exec jekyll --version
       
       - name: Cache IG Publisher
         id: cache-publisher
